@@ -1,0 +1,23 @@
+
+.icon {
+    margin-right: 2px;
+}
+
+
+.menu-diferente {
+    background: #36b1b6	;
+}
+.menu-transacao {
+    background: #b5dbdd;
+}
+h1{
+    font-family:candara;
+    font-size:90px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu {
+    margin-bottom: 0px;
+    background: white;
+}

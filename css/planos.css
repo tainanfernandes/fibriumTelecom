@@ -1,0 +1,74 @@
+h3{
+    font-family:candara;
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 0px;
+    background: white;
+}
+
+.speed{
+    position: relative;
+    left: 100px;
+}
+
+.cable{
+    position: relative;
+    left: 370px;
+    width: 64px;
+    bottom: 150px;
+}
+
+.wifi{
+    position: relative;
+    bottom: 257px;
+    left: 490px;
+    width: 64px;
+}
+
+.quarenta{
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.sessenta{
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.cem{
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.cento-e-cinquenta{
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.quatrocentos{
+    position: relative;
+    left: 260px;
+    bottom: 50px;
+}
+
+.fibra{
+    position: relative;
+    left: 370px;
+    bottom: 155px;
+}
+
+.incluso{
+    position: relative;
+}
+
+.assinar{
+    
+    width: 376px;
+
+}

@@ -1,0 +1,32 @@
+.icones {
+    width: 150px;
+    height: 150px;
+}
+.overlay-parallax {
+    background-image: url(../images/img/imagem-propaganda.jpg);
+    background-blend-mode: darken;
+}
+
+h1{
+    font-size: 60px;
+}
+h4 {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.icon_phone {
+    
+    margin-left: 40px;
+    margin-right: 5px;
+
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.visitar{
+    margin-left: 400px;
+}

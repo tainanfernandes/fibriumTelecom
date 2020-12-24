@@ -1,0 +1,157 @@
+.bg_video{
+	
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.menu {
+    margin-bottom: 0px;
+    background: white;
+}
+h1{
+    font-family:candara;
+    font-size:90px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family:candara;
+    text-align: center;
+}
+
+#card{
+    position:relative
+}
+
+#card:hover{
+    top:-4px;
+    box-shadow:0 20px 20px #36b1b6;
+    transition: all .2s ease-in-out
+}
+
+.conectando {
+    background: url('../img/aviao-fundo.png') no-repeat center;
+    width: 750px;
+    left: 70px;
+    height: 900px;
+   
+}
+.img4 {
+    width: 300px;
+    margin-top: 230px;
+    margin-left: 0px;
+    position: relative;
+    left: 300px;
+
+}
+
+.texto{
+    top: 250px;
+    left: 200px;
+    right: 600px;
+    position: relative;
+
+}
+
+.conheca{
+    position: relative;
+    top: 250px;
+    left: 500px;
+    color:white;
+    height: 52px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    color:white;
+    background-color:#36b1b6;
+    border:#36b1b6;
+}
+#img8{
+    width: 300px;
+}
+#jumbotron1{
+    position: static;
+}
+#img9{
+    width: 300px;
+}
+#img6{
+    width: 300px;
+}
+#img7{
+    width: 300px;
+}
+
+.top{
+    margin-top: 120px;
+}
+
+#bolinha{
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+}
+
+.velocimetro{
+    position: relative;
+    width: 90px;
+    left: 810px;
+    top: auto;
+    bottom: 45px;
+
+}
+
+#jumbo-velocimetro{
+    position: static;
+    margin-top: 200px;
+    height: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color:#36b1b6;
+    color: white;
+}
+
+.h2-jumbo{
+    width: 1345px;
+    margin-top: 10px;
+}
+
+.h1-optica{
+    left: 85px;
+    position: relative;
+    top: 80px;
+}
+
+.optica1{
+    
+    width: 250px;
+    position: relative;
+    left: 200px;
+    top: 0px;
+    bottom: 200px;
+
+}
+
+
+.rounded-circle{
+    margin-left: 80px;
+}
+
+h2{
+    text-align: center;
+}
+
+.py-5{
+    margin-top: 100px;
+}
+
+.button-jumbotron {
+    background-color: white;
+    margin-left: 550px;
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="img/logo.png">
+      <title>Fibrium Telecom</title>
+      <!-- Principal CSS do Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!-- Estilos customizados para esse template -->
+      <link href="css/novousuario.css" rel="stylesheet">
+      <link href="css/padrao.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Formulário Onde o usuario poderá se cadastrar para ter acesso a uma conta-->
+      <form class="form-signin" id="formCadastrar">
+         <div class="text-center mb-4">
+            <h1 class="h3 mb-3 font-weight-normal">Cadastre-se</h1>
+         </div>
+         <div class="form-label-group">
+            <input type="text" name="inputNome" id="inputNome" class="form-control" placeholder="Nome" autocomplete="given-name">
+            <label for="inputNome">Nome</label>
+         </div>
+         <div class="form-label-group">
+            <input type="text" name="inputSobrenome" id="inputSobrenome" class="form-control" placeholder="Sobrenome" autocomplete="family-name">
+            <label for="inputSobrenome">Sobrenome</label>
+         </div>
+         <div class="form-label-group">
+            <input type="text" name="inputCpf" id="inputCpf" class="form-control" placeholder="CPF" >
+            <label for="inputCpf">CPF</label>
+         </div>
+         <div class="form-label-group">
+            <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Endereço de email" autocomplete="email">
+            <label for="inputEmail">Endereço de email</label>
+         </div>
+         <div class="form-label-group">
+            <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Senha" autocomplete="new-password">
+            <label for="inputPassword">Senha</label>
+         </div>
+         <div class="form-label-group">
+            <input type="password" name="inputPasswordRepeat" id="inputPasswordRepeat" class="form-control" placeholder="Confirmar Senha" autocomplete="new-password">
+            <label for="inputPasswordRepeat">Confirmar Senha</label>
+         </div>
+         <!-- Rodapé-->
+         <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+         <p class="mt-5 mb-3 text-muted text-center">&copy; Fibrium Telecom - 2020</p>
+      </form>
+      <div class="modal" id="modal-login" tabindex="-1" role="dialog">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modal-login-titulo"></h5>
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <p id="modal-login-corpo"></p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-login">Fechar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
