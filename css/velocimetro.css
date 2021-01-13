@@ -1,0 +1,52 @@
+
+.bgvideo{
+    width: 1348px;
+}
+
+
+
+@media(max-width: 2560px){
+    .bgvideo{
+        width: 2560px;
+    }
+}
+@media(max-width: 1440px){
+    .bgvideo{
+        width: 1440px;
+    }
+}
+@media(max-width: 1024px){
+    .bgvideo{
+        width: 1024px;
+    }
+}
+
+@media(max-width: 768px){
+    .bgvideo{
+        width: 768px;
+    }
+}
+
+@media(max-width: 414px){
+    .bgvideo{
+        width: 414px;
+    }
+}
+
+@media(max-width: 425px){
+    .bgvideo{
+        width: 425px;
+    }
+}
+
+@media(max-width: 375px){
+    .bgvideo{
+        width: 375px;
+    }
+}
+
+@media(max-width: 320px){
+   .bgvideo{
+       width: 320px;
+   }
+}

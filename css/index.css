@@ -155,3 +155,374 @@ h2{
     background-color: white;
     margin-left: 550px;
 }
+.txt8{
+    margin-left: 370px;
+}
+.txt9{
+    margin-left: 150px;
+}
+.txt6{
+    margin-left: 370px;
+}
+
+.txt7{
+    margin-left: 150px;
+}
+
+@media(max-width: 2560px){
+   
+}
+@media(max-width: 1440px){
+   
+}
+@media(max-width: 1024px){
+   
+}
+
+@media(max-width: 768px){
+    #h1{  
+        font-size: 55px;
+    } 
+    #img8{
+        
+    width: 120px;
+    margin-top: 30px;
+    }
+    #img9{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img6{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img7{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+
+    .txt8{
+        margin-left: 0px;
+    }
+    .txt9{
+        margin-left: 20px;
+
+    }
+    .txt6{
+        margin-left: 0px;
+    }
+    .txt7{
+        margin-left: 20px;
+    }
+
+    .h2-jumbo{
+        width: 300px;
+        margin-top: 0px;
+        font-size:20px;
+        margin-left: 110px;
+
+
+    }
+    
+    .velocidade{
+        position: relative;
+        right: 370px;
+    
+    }
+    .optica1{
+        width: 100px;
+        left: 0px;
+    }
+    
+    .optica{
+        width: 100px;   
+        left: 0px;
+        top: 50px;
+        margin-left: 40px;
+    }
+
+    #jumbo-velocimetro{
+        width: 510px;
+    }
+
+    .h1-optica{
+        font-size: 20px;  
+        left: 0px;
+        top:50px;
+    }
+
+    #circle{
+        margin-left: 90px;
+    }
+
+    .bg_video{
+        width: 630px;
+    }
+
+    .container{
+        margin-left: 25px;
+    }
+}
+
+@media(max-width: 425px){
+
+    #h1{  
+        font-size: 55px;
+    } 
+    #img8{
+        
+    width: 120px;
+    margin-top: 30px;
+    }
+    #img9{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img6{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img7{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+
+    .txt8{
+        margin-left: 0px;
+    }
+    .txt9{
+        margin-left: 20px;
+
+    }
+    .txt6{
+        margin-left: 0px;
+    }
+    .txt7{
+        margin-left: 20px;
+    }
+
+    .h2-jumbo{
+        width: 300px;
+        margin-top: 0px;
+        font-size:20px;
+        margin-left: 110px;
+
+
+    }
+    
+    .velocidade{
+        position: relative;
+        right: 370px;
+    
+    }
+    .optica1{
+        width: 100px;
+        left: 0px;
+    }
+    
+    .optica{
+        width: 100px;   
+        left: 0px;
+        top: 50px;
+        margin-left: 40px;
+    }
+
+    #jumbo-velocimetro{
+        width: 510px;
+    }
+
+    .h1-optica{
+        font-size: 20px;  
+        left: 0px;
+        top:50px;
+    }
+
+    #circle{
+        margin-left: 90px;
+    }
+
+    .bg_video{
+        width: 510px;
+    }
+
+    .container{
+        margin-left: 25px;
+    }
+    
+}
+
+@media(max-width: 375px){
+    #h1{  
+        font-size: 55px;
+    } 
+    #img8{
+        
+    width: 120px;
+    margin-top: 30px;
+    }
+    #img9{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img6{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img7{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+
+    .txt8{
+        margin-left: 0px;
+    }
+    .txt9{
+        margin-left: 20px;
+
+    }
+    .txt6{
+        margin-left: 0px;
+    }
+    .txt7{
+        margin-left: 20px;
+    }
+
+    .h2-jumbo{
+        width: 300px;
+        margin-top: 0px;
+        font-size:20px;
+        margin-left: 55px;
+
+
+    }
+    
+    .velocidade{
+        position: relative;
+        right: 400px;
+    
+    }
+    .optica1{
+        width: 100px;
+        left: 0px;
+    }
+    
+    .optica{
+        width: 100px;   
+        left: 0px;
+        top: 50px;
+        margin-left: 40px;
+    }
+
+    #jumbo-velocimetro{
+        width: 404px;
+    }
+
+    .h1-optica{
+        font-size: 20px;  
+        left: 0px;
+        top:50px;
+    }
+
+    #circle{
+        margin-left: 90px;
+    }
+
+    .bg_video{
+        width: 408px;
+    }
+}
+
+@media(max-width: 320px){
+    #h1{  
+        font-size: 55px;
+    } 
+    #img8{
+        
+    width: 120px;
+    margin-top: 30px;
+    }
+    #img9{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img6{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+    #img7{
+        
+        width: 120px;
+        margin-top: 30px;
+    
+    }
+
+    .txt8{
+        margin-left: 0px;
+    }
+    .txt9{
+        margin-left: 20px;
+
+    }
+    .txt6{
+        margin-left: 0px;
+    }
+    .txt7{
+        margin-left: 20px;
+    }
+
+    .h2-jumbo{
+        width: 300px;
+        margin-top: 0px;
+        font-size:20px;
+        margin-left: 5px;
+
+    }
+    
+    .velocidade{
+        position: relative;
+        right: 465px;
+    }
+    .optica1{
+        width: 100px;
+        left: 0px;
+    }
+    
+    .optica{
+        width: 100px;   
+        left: 0px;
+        top: 50px;
+    }
+
+    .h1-optica{
+        font-size: 20px;  
+        left: 0px;
+        top:50px;
+    }
+
+    #circle{
+        margin-left: 60px;
+    }
+}
+

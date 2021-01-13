@@ -14,7 +14,8 @@
    </head>
    <body>
       <!-- Um formulário onde o usuario irá colocar email e senha para acessar sua conta -->
-      <form class="form-signin" id="formLogin">
+      <form class="form-signin" id="frmLogin formLogin" name="frmLogin" action="http://IPDOSAC:60280/sac/logon.do" method="POST">
+         <input name="sys" value="SAC" type="hidden">
          <div class="text-center mb-4">
             <img class="mb-4" src="img/logo.png" alt="" width="240" height="200">
             <h1 class="h3 mb-3 font-weight-normal">Acessar</h1>
@@ -22,11 +23,11 @@
          </div>
          <div id="alert" class="container"></div>
          <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de email" required autofocus>
-            <label for="inputEmail">Endereço de email</label>
+            <input name="user"  autocomplete="off"   type="text"  id="inputEmail" class="form-control" required autofocus> 
+            <label for="inputEmail">Login Assinante</label>
          </div>
          <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <input name="password" autocomplete="off" type="text" id="inputPassword" class="form-control"  required>
             <label for="inputPassword">Senha</label>
          </div>
          <div class="checkbox mb-3">

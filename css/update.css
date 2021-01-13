@@ -32,7 +32,7 @@ a {
 }
 
 .bg_video{
-    width: 1349px;
+    width: 1348px;
 }
 @media(max-width: 2560px){
     .bg_video{
@@ -180,8 +180,4 @@ a {
        margin-left: 200px;
        width: 500px;
    }
-}
-
-.bg_video{
-    width: 1349px;
 }

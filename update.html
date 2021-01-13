@@ -10,14 +10,14 @@
       <!-- Principal CSS do Bootstrap -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <!-- Estilos customizados para esse template -->
-      <link href="css/inicialusuario.css" rel="stylesheet">
+      <link href="css/contato.css" rel="stylesheet">
       <link href="css/padrao.css" rel="stylesheet">
    </head>
    <body>
       <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom shadow-sm sticky-top menu">
          <h5 class="my-0 mr-md-auto font-weight-normal">Fibrium Telecom</h5>
          <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="index.html"><img src="https://img.icons8.com/windows/20/000000/home-page.png" class="icon"/> Home <span class="sr-only">(página atual)</span></a>
+            <a class="p-2 text-dark" href="index.html"><img src="https://img.icons8.com/windows/20/000000/home-page.png" class="icon"/> Home</a>
             <a class="p-2 text-dark" href="planos.html">
                <svg xmlns="http://www.w3.org/2000/svg"  class="icon" x="0px" y="0px"
                   width="23" height="23" viewBox="0 0 172 172" style=" fill:#000000;">
@@ -52,70 +52,56 @@
                2ª Via Boleto
             </a>
             <a class="p-2 text-dark" href="velocimetro.html"><img src="https://img.icons8.com/metro/18/000000/speedometer.png " class="icon"/>Velocímetro</a>
-            <a class="p-2 text-dark" href="contato.html"><img src="https://img.icons8.com/metro/18/000000/new-post.png" class="icon"/>Contato</a>
+            <a class="p-2 text-dark" href="contato.html"><img src="https://img.icons8.com/metro/18/000000/new-post.png" class="icon"/><span class="sr-only">(página atual)</span>Contato</a>
             <a class="p-2 text-dark" href="faq.html"><img src="https://img.icons8.com/metro/16/000000/speech-bubble.png" class="icon"/>Faq</a>
          </nav>
          <a class="btn btn-outline-primary minhaconta" href="login.html">Minha Conta</a>
       </div>
-      <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
-      <div class="jumbotron">
-         <div class="container">
-            <h1 class="display-6" id="h1">Olá, Matheus!</h1>
-            <p id="frase"><b>"As empresas existem para criar e preservar seus clientes. Não para criar produtos, como muita gente imagina. Os produtos são efêmeros; os clientes não."</b></br>Don Peppers</p>
-         </div>
-      </div>
-      <!-- Nesse parte, será listada para o Aluno todas as suas turmas e as principais informações sobre elas em forma de acordeão -->
       <div class="container">
-         <h2>Minhas Faturas</h2>
-         <div class="accordion" id="accordionExample">
-            <div class="card">
-               <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Janeiro
-                     </button>
-                  </h5>
-               </div>
-               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                     <b>Plano: 40 Megas</b></br>
-                     <b>Descrição:</b> Plano de internet com 40 megas (fibra optica)</br>
-                     <b>vencimento:</b> 10/01/2021</br>
-                     <b>Valor:</b> 59,90</br>
-                     <b>Desconto:</b> Sem descontos </br>
-                  </div>
-                  <div class="btn">
-                     <a class="btn btn-outline-dark my-2 my-sm-0 button-presenca" href="#">DOWNLOAND</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="card">
-            <div class="card-header" id="headingTwo">
-               <h5 class="mb-0">
-                  <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Fevereiro
-                  </button>
-               </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-               <div class="card-body">
-                  <b>Plano: 40 Megas</b></br>
-                  <b>Descrição:</b> Plano de internet com 40 megas (fibra optica)</br>
-                  <b>vencimento:</b> 10/02/2021</br>
-                  <b>Valor:</b> 59,90</br>
-                  <b>Desconto:</b> Sem descontos </br>
-               </div>
-               <div class="btn">
-                  <a class="btn btn-outline-dark my-2 my-sm-0 button-presenca" href="#">DOWNLOAND</a>
-               </div>
-            </div>
-         </div>
-      </div>
-      </div>
-      </div>
       <br><br><br>
-   </body>
+      <h2>Evolua o seu plano!</h2>
+      <hr class="featurette-divider">
+      <br><br><br>
+      <form class="form">
+         <div class="form-group">
+            <label for="exampleFormControlInput1">Endereço de email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+         </div>
+         <p>Quer Aumentar sua velocidade para qual?</p>
+         <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+            <label class="form-check-label" for="inlineRadio1">40 Megas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+            <label class="form-check-label" for="inlineRadio2">60 Megas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="opcao3" >
+            <label class="form-check-label" for="inlineRadio3">100 Megas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="opcao3" >
+            <label class="form-check-label" for="inlineRadio3">150 Megas</label>
+          </div>
+
+         <div class="form-group">
+            <label for="formGroupExampleInput">Assunto</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Assunto">
+         </div>
+         <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+         </div>
+         <div class="form-group row">
+            <div class="col-sm-10">
+               <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+         </div>
+      </form>
+      </body>
+   <br><br><br><br><br>
+   <br>
    <footer class="container py-5">
       <div class="row">
          <div class="col-12 col-md">
@@ -173,18 +159,15 @@
    
       
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
    <script type="text/javascript">
       jQuery(function () {
-      jQuery(window).scroll(function () {
-        if (jQuery(this).scrollTop() > 760) {
-         $(".menu").addClass("menu-diferente");
-        } else {
-         $(".menu").removeClass("menu-diferente");
-        }
-      });
+        jQuery(window).scroll(function () {
+          if (jQuery(this).scrollTop() > 760) {
+           $(".menu").addClass("menu-diferente");
+          } else {
+           $(".menu").removeClass("menu-diferente");
+          }
+        });
       });
    </script>
 </html>

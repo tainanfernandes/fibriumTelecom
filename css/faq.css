@@ -1,0 +1,104 @@
+.bg_video{
+    width: 1348px;
+}
+@media(max-width: 2560px){
+    h2{
+        
+        width: 400px;
+        margin-left: 400px;
+    
+       }
+    .bg_video{
+        width: 2560px;;
+    }
+}
+@media(max-width: 1440px){
+    h2{
+        
+        width: 400px;
+        margin-left: 350px;
+    
+       }
+    .bg_video{
+        width: 1440px;;
+    }
+}
+@media(max-width: 1024px){
+    .container{
+        margin-left: 150px;
+    }
+    h2{
+        
+     width: 400px;
+     margin-left: 350px;
+ 
+    }
+    .card{
+        left: 50px;
+    }
+
+}
+
+@media(max-width: 768px){
+    .container{
+        margin-left: 150px;
+    }
+    h2{
+        
+     width: 400px;
+     margin-left: 250px;
+ 
+    }
+    .card{
+        left: 130px;
+    }
+}
+
+@media(max-width: 414px){
+
+}
+
+@media(max-width: 425px){
+    .container{
+        margin-left: 150px;
+    }
+    h2{
+        
+     width: 400px;
+     margin-left: 250px;
+ 
+    }
+    .card{
+        left: 300px;
+    }
+}
+
+@media(max-width: 375px){
+    .container{
+        margin-left: 150px;
+    }
+    h2{
+        
+     width: 400px;
+     margin-left: 250px;
+ 
+    }
+    .card{
+        left: 300px;
+    }
+}
+
+@media(max-width: 320px){
+   .container{
+       margin-left: 150px;
+   }
+   h2{
+       
+    width: 400px;
+    margin-left: 250px;
+
+   }
+   .card{
+       left: 300px;
+   }
+}

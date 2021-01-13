@@ -5,7 +5,8 @@
 
 
 .menu-diferente {
-    background: #36b1b6	;
+    background-color: #36b1b6 ;
+    transition: all 0.2s;;
 }
 .menu-transacao {
     background: #b5dbdd;
@@ -21,3 +22,12 @@ h1{
     margin-bottom: 0px;
     background: white;
 }
+
+.whatsapp {
+    position: fixed;
+    top: 580px;
+    left: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
